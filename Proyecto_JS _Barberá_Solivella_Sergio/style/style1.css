@@ -1,0 +1,25 @@
+body
+{
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+header i
+{
+    color:white;
+    width:30px;
+    height: 15px;
+    font-size:2em;
+    margin-right:10px;
+}
+main section .container
+{
+    margin-top: 50px;
+}
+.mx-auto
+{
+    margin-top: 20px;
+    display: block;
+    width:300px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script src="https://kit.fontawesome.com/509deda241.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style/style3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="./js/scriptsContacto.js"></script>
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <header class="no-print">
+        <nav class="navbar navbar-dark bg-dark no-print">
+            <a target="logo" title="logo" alt="logo" class="navbar-brand" href="./Inicio.html">
+                <i class="fas fa-futbol"></i> MisResultados
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="./Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Blog.html">Resultados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Formulario de contacto</h3>
+                            <form class="was-validated">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" id="nombre" style="width: 400px;" class="form-control " onkeypress="Nombre1()" required>
+                                    <div class="invalid-feedback">Introduce un nombre</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="apellidos">Apellidos</label>
+                                    <input type="text" id="apellidos" style="width: 400px;" class="form-control is-valid" onkeypress="Apellidos1()" required>
+                                    <div class="invalid-feedback">Introduce los apellidos</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tlf">Teléfono</label>
+                                    <input type="text" id="tlf" style="width: 400px;" class="form-control is-valid" onkeypress="Telefono1()" required>
+                                    <div class="invalid-feedback">Introduce un nº teléfono</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="campoDireccion1">Dirección</label>
+                                    <input type="text" id="direccion" style="width: 400px;" class="form-control is-valid" required>
+                                    <div class="invalid-feedback">Introduce una Dirección</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cp">Código Postal</label>
+                                    <input type="text" id="cp" style="width: 400px;" class="form-control is-valid" onkeypress="CodPostal1()" required>
+                                    <div class="invalid-feedback">Introduce un código de postal</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="correo">Correo electronico</label>
+                                    <input type="text" id="email" style="width: 400px;" class="form-control is-valid" required>
+                                    <div class="invalid-feedback">Introduce un correo electronico válido</div>
+                                </div>
+                            </form>
+                            <div class="form-group">
+                                <label for="campoTextarea">*Observaciones</label>
+                                <textarea class="form-control" style="width: 400px;" id="campoTextarea" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="politicas">
+                                    <label class="form-check-label" for="politicas">
+                      Acepta las póliticas de privacidad y cookies
+                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="margin-left: 5px;" onclick=validar(this.form),Nombre2(),Apellidos2(),Telefono2(),Email1(),CodPostal2()>Enviar</button>
+                            <input type="reset" class="btn btn-secondary" style="margin-left: 5px;" value="Borrar"></input>
+                            <button type="button" name="escribe" id="escribe" style="margin-left: 5px;" class="btn btn-secondary" onclick="escribirCookies()">Escribe cookies</button>
+                            <button type="button" name="muestra" id="muestra" style="margin-left: 5px;margin-top: 5px;" class="btn btn-secondary" onclick="leerCookies()">Mostrar cookies</button>
+                            <button type="button" name="borra1" id="borra1" style="margin-left: 5px;margin-top: 5px;" class="btn btn-secondary" onclick="borrarCookie()">Borrar cookies</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+    </main>
+    <footer id="sticky-footer" class="mt-5 py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>
+          MisResultados - Copyright &copy; 2020
+        </small>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

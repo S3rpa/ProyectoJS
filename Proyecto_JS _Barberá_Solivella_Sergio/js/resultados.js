@@ -1,0 +1,176 @@
+var resultadosData = {
+    "calendario": [{
+            "jornadas": "Jornada 25",
+            "resultado": ["Getafe 0-3 Sevilla", "Osasuna 0-3 Granada", "Real Valladolid 2-1 Espanyol", "Atlético 3-1 Villarreal", "Alavés 2-1 Atletic", "Betis 3-3 Mallorca", "Celta 1-0 Leganés", "Barcelona 5-0 Eibar", "Levante 1-0 Real Madrid", "Real Sociedad 3-0 Valencia"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 55 25 17 4 4 ", "2° Real Madrid 53 25 15 8 2", "3° Atlético 43 25 11 10 4", "4° Sevilla 43 25 12 7 6", "5° Getafe 42 25 12 6 7", "6° Real Sociedad 40 24 12 4 8", "7° Villarreal CF 38 25 11 5 9", "8° Valencia CF 38 25 10 8 7", "9° Granada 36 25 11 3 11", "10° Levante UD 32 25 10 2 13", "11° Athletic 31 25 7 10 8", "12° Osasuna 31 25 7 10 8", "13° Real Betis 30 25 7 9 9", "14° Alavés 30 25 8 6 11", "15° Real Valladolid 29 25 6 11 8", "16° Eibar 24 24 6 6 12", "17° Celta 24 25 5 9 11", "18° Mallorca 22 25 6 4", "19° Leganés 19 25 4 7 14", "20° Espanyol 19 25 4 7 14"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+        },
+        {
+            "jornadas": "Jornada 24",
+            "resultado": ["Leganés 0-0 Betis", "Real Madrid 2-2 Celta", "Athletic 0-1 Osasuna", "Eibar 0-0 Real Sociedad", "Sevilla 2-2 Espanyol ", "Villarreal 2-1 Levante", "Barcelona 2-1 Getafe", "Granada 2-1 Real Valladolid", "Valencia 2-2 Atlético", "Mallorca 1-0 Alavés"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 53 24 15 8 1", "2° FC Barcelona 52 24 16 4 4", "3° Getafe 42 24 12 6 6 ", "4° Atlético 40 24 10 10 4", "5° Sevilla 40 24 11 7 6 ", "6° Villarreal 38 24 11 5 8", "7° Valencia CF 38 24 10 8 6 ", "8° Real Sociedad 37 23 11 4 8", "9° Granada CF 33 24 10 3 11", "10° Athletic 31 24 7 10 7", "11° Osasuna 31 24 7 10 7", "12° Real Betis 29 24 7 8 9", "13° Levante UD 29 24 9 2 13", "14° Alavés 27 24 7 6 11", "15° Real Valladolid 26 24 5 11 8", "16° Eibar 24 23 6 6 11", "17° Celta 21 24 4 9 11", "18° Mallorca 21 24 6 3 15", "19° Leganés 19 24 4 7 13", "20° Espanyol 19 24 4 7 13"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 23",
+            "resultado": ["Osasuna 1-4 Real Madrid", "Espanyol 1-0 Mallorca", "Betis 2-3 Barcelona", "Celta 2-1 Sevilla", "Real Sociedad 2-1 Athletic", "Real Valladolid 1-1 Villarral", "Levante 2-0 Leganés", "Alavés 2-1 Eibar", "Atlético 1-0 Granada", "Getafe 3-0 Valencia"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 52 23 15 7 1", "2° FC Barcelona 49 23 15 4 4", "3° Getafe 42 23 12 6 5", "4° Atlético 39 23 10 9 4", "5° Sevilla 39 23 11 6 6", "6° Real Sociedad 37 23 11 4 8", "7° Valencia CF 37 23 10 7 6", "8° Villarreal 35 23 10 5 8", "9° Athletic 31 23 7 10 6", "10° Granada CF 30 23 9 3 11", "11° Levante UD 29 23 9 2 12", "12° Osasuna 28 23 6 10 7", "13° Real Betis 28 23 7 7 9", "14° Alavés 27 23 7 6 10", "15° Real Valladolid 26 23 5 11 7", "16° Eibar 24 23 6 6 11", "17° Celta 20 23 4 8 11", "18° Mallorca 18 23 5 3 15", "19° Leganés 18 23 4 6 13", "20° Espanyol 18 23 4 6 13"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 22",
+            "resultado": ["Eibar 1-1 Betis", "Leganés 2-1 Real Sociedad", "Sevilla 1-1 Alavés", "Barcelona 2-1 Levante", "Villarral 3-1 Osasuna", "Athletic 0-2 Getafe", "Mallorca 0-1 Real Valladolid", "Granada 2-1 Espanyol", "Real Madrid 1-0 Atlético", "Valencia 1-0 Celta"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 49 22 14 7 1 ", "2° FC Barcelona 46 22 14 4 4", "3° Getafe 29 22 11 6 5", "4°Sevilla 39 22 11 6 5", "5° Valencia CF 37 22 10 7 5", "6° Atlético 36 22 9 9 4", "7° Villarreal CF 34 22 10 4 8", "8° Real Sociedad 34 22 10 4 8", "9° Athletic 31 22 7 10 5", "10° Granada CF 30 22 9 3 10", "11° Osasuna 28 22 6 10 6", "12° Real Betis 28 22 7 7 8", "13° Levante UD 26 22 8 2 12", "14° Real Valladolid 25 22 5 10 7", "15° Alavés 24 22 6 6 10", "16° Eibar 24 22 6 6 10", "17° Mallorca 18 22 5 3 14", "18° Leganés 18 22 4 6 12", "19° Celta 17 22 3 8 11", "20° Espanyol 15 22 3 6 13"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 21",
+            "resultado": ["Celta 0-0 Eibar", "Getafe 1-0 Betis", "Real Sociedad 3-0 Mallorca", "Atlético 0-0 Leganés", "Real Valladolid 0-1 Real Madrid", "Valencia 2-0 Barcelona", "Alavés 1-2 Villarreal", "Osasuna 2-0 Levante", "Espanyol 1-1 Athletic", "Sevilla 2-0 Granada"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 46 21 13 7 1", "2° FC Barcelona 43 21 13 4 4 ", "3° Sevilla 38 21 11 5 5", "4° Getafe 36 21 10 6 5", "5° Atlético 36 21 9 9 3 ", "6° Real Sociedad 34 21 10 4 7", "7° Valencia CF 34 21 9 7 5", "8° Villarreal CF 31 21 9 4 8", "9° Athletic 31 21 7 10 4 ", "10° Osasuna 28 21 6 10 5", "11° Granada CF 27 21 8 3 10", "12° Real Betis 27 21 7 6 8", "13° Levante UD 26 21 8 2 11", "14° Alavés 23 21 6 5 10", "15° Eibar 23 21 6 5 10", "16° Real Valladolid 22 21 4 10 7", "17° Mallorca 18 21 5 3 13", "18° Celta 17 21 3 8 10", "19° Leganés 15 21 3 6 12", "20° Espanyol 15 21 3 6 12"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 20",
+            "resultado": ["Barcelona 1-0 Granada", "Mallorca 4-1 Valencia ", "Villareal 1-2 Espanyol", "Athletic 1-1 Celta", "Betis 3-0 Real Sociedad", "Real Madrid 2-1 Sevilla", "Leganés 0-3 Getafe", "Levante 0-1 Alavés", "Eibar 2-0 Atlético", "Osasuna 0-0 Real Valladolid"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 43 20 13 4 3", "2° Real Madrid 43 20 12 7 1", "3° Atletico 35 20 9 8 3", "4° Sevilla 35 20 10 5 5", "5° Getafe 33 20 9 6 5", "6° Real Sociedad 31 20 9 4 7", "7° Valencia CF 31 20 8 7 5", "8° Athletic 30 20 7 9 4 ", "9° Villarreal CF 28 20 8 4 8", "10° Granada CF 27 20 8 3 9", "11° Real Betis 27 20 7 6 7", "12° Levante UD 26 20 8 2 10", "13° Osasuna 25 20 5 10 5", "14° Alavés 23 20 6 5 9", "15° Real Valladolid 22 20 4 10 6", "16° Eibar 22 20 6 4 10", "17° Mallorca 18 20 5 3 12", "18° Celta 16 20 3 7 10", "19° Leganés 14 20 3 5 12", "20° Espanyol 14 20 3 5 12"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 19",
+            "resultado": ["Alavés 1-1 Betis", "Celta 1-1 Osasuna", "Granada 1-0 Mallorca", "Valencia 1-0 Eibar", "Real Sociedad 1-2 Villarreal", "Getafe 0-3 Real Madrid", "Sevilla 1-1 Athletic", "Real Valladolid 2-2 Leganés", "Atlético 2-1 Levante", "Espanyol 2-2 Barcelona"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 40 19 12 4 3", "2° Real Madrid 40 19 11 7 1", "3° Atlético 35 19 9 8 2", "4° Sevilla FC 35 19 10 5 4", "5° Real Sociedad 31 19 9 4 6", "6° Valencia CF 31 19 8 7 4", "7° Getafe CF 30 19 8 6 5", "8° Athletic 29 19 7 8 4", "9° Villarreal 28 19 8 4 7", "10° Granada CF 27 19 8 3 8", "11° Levante UD 26 19 8 2 9", "12° Osasuna 24 19 5 9 5 ", "13° Real Betis 24 19 6 6 7", "14° Real Valladolid 21 19 4 9 6", "15° Alavés 20 19 5 5 9", "16° Eibar 19 19 5 4 10", "17° Celta 15 19 3 6 10", "18° Mallorca 15 19 4 3 12", "19° Leganés 14 19 3 5 11", "20° Espanyol 11 19 2 5 12"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 18",
+            "resultado": ["Osasuna 3-4 Real Sociedad", "Levante 3-1 Celta", "Betis 1-2 Atlético", "Leganés 2-0 Espanyol", "Real Madrid 0-0 Athletic", "Villarreal 1-0 Getafe", "Real Valladolid 1-1 Valencia", "Barcelona 4-1 Alavés", "Eibar 3-0 Granada", "Mallorca 0-2 Sevilla"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 39 18 12 3 3", "2° Real Madrid 37 18 10 7 1", "3° Sevilla 34 18 10 4 4", "4° Atlético 32 18 9 4 52", "5° Real Sociedad 31 18 9 4 5", "6° Getafe 30 18 6 4", "7° Athletic 28 18 7 7 4", "8° Valencia CF 28 18 7 7 4 ", "9° Levante UD 26 18 2 8", "10° Villarreal 25 18 7 4 7 ", "11° Granada CF 24 18 7 3 8", "12° Osasuna 23 18 5 8 5 ", "13° Real Betis 23 18 6 5 7", "14° Real Valladolid 20 18 4 8 6 2", "15° Alavés 19 18 5 4 9", "16° Alavés 19 18 5 4 9", "17° Mallorca 15 18 4 3 11", "18° Celta 14 18 3 5 10", "19° Leganés 13 18 3 4 11", "20° Espanyol 10 18 2 4 12"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 17",
+            "resultado": ["Espanyol 2-2 Betis", "Getafe 2-0 Real Valladolid ", "Valencia 1-1 Real Madrid", "Sevilla 1-2 Villarreal", "Celta 2-2 Mallorca", "Real Sociedad 2-2 Barcelona", "Athleic 0-0 Eibar", "Alavés 1-1 Leganés", "Atlético 2-0 Osasuna", "Granada 1-2 Levante"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 36 17 11 3 3", "2° Real Madrid 36 17 10 6 1", "3° Sevilla 31 17 9 4 4", "4° Getafe 30 17 8 6 3", "5°Atlético 29 17 7 8 2", "6° Real Sociedad 28 17 8 4 5", "7° Athletic 27 7 6 4", "8° Valencia CF 27 17 7 6 4", "9° Granada CF 24 17 7 3 7", "10° Osasuna 23 17 7 3 7", "11° Osasuna 23 17 5 8 4", "12° Real Betis 23 17 6 5 6", "13° Villarreal 22 17 6 4 7", "14° Alavés 19 17 4 7 6", "15° Real Valladolid 19 17 4 7 6", "16° Eibar 16 17 4 4 9", "17° Mallorca 15 17 4 3 10", "18° Celta 14 17 3 5 9", "19° Leganés 10 17 2 4 11", "20° Espanyol 10 17 2 4 11"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 16",
+            "resultado": ["Leganés 3-2 Celta", "Osasuna 1-1 Sevilla", "Real Valladolid 0-0 Real Sociedad", "Betis 3-2 Athletic", "Eibar 0-1 Getafe", "Real Madrid 2-0 Espanyol", "Barcelona 5-2 Mallorca", "Villarreal 0-0 Atlético", "Granada 3-0 Alavés", "Levante 2-4 Valencia"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 35 16 11 2 3", "2° Real Madrid 35 16 10 5 1", "3° Sevilla 31 16 9 4 3", "4° Real Sociedad 27 16 ", "5° Getafe CF 27 16 7 6 3", "6° Athletic 26 16 6 8 2", "7° Atlético 26 16 6 8 2", "8° Valencia CF 26 16 7 5 4", "9° Granada CF 24  16 7 3 6 ", "10° Osasuna 23 16 5 8 3", "11° Real Betis 22 16 6 4 6 ", "12° Levante UD 20 16 6 2 8 ", "13° Villarreal CF 19 16 5 4 7 ", "14° Real Valladolid 19 16 4 7 5", "15° Alavés 18 16 5 3 8", "16° Eibar 15 16 4 3 9", "17° Mallorca 14 16 4 2 10", "18° Celta 13 16 3 4 9", "19° Leganés 9 16 2 3 11", "20° Espanyol 9 16 2 3 11"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 15",
+            "resultado": ["Espanyol 2-4 Osasuna", "Getafe 4-0 Levante", "Atlético 0-1 Barcelona", "Sevilla 1-0 Leganés", "Celta 0-0 Real Valladolid", "AThletic 2-0 Granada", "Mallorca 1-2 Betis", "Alavés 1-2 Real Madrid", "Real Sociedad 4-1 Eibar", "Valencia 2-1 Villarreal"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 32 15 10 2 3 ", "2° Real Madrid 32 15 9 5 1", "3° Sevilla 30 15 9 3 3", "4° Real Sociedad 26 15 8 2 5", "5° Athletic 16 15 7 5 3", "6° Atlético 25 15 6 7 2", "7° Getafe 24 15 6 6 3", "8° Valencia CF 23 15 6 5 4", "9° Osasuna 22 15 5 7 3", "10° Granada CF 21 15 6 3 6", "11° Levante UD 20 15 6 2 7", "12° Real Betis 19 15 5 4 6", "13° Villarreal 18 15 5 3 7 ", "14° Alavés 18 15 5 3 7", "15° Real Valladolid 18 15 4 6 5", "16° Eibar 15 15 4 3 8", "17° Mallorca 14 15 4 2 9", "18° Celta 13 15 3 4 8", "19° Espanyol 9 15 2 3 10,20° Leganés 6 15 1 3 11"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 14",
+            "resultado": ["Espanyol 1-1 Getafe", "Osasuna 1-2 Athletic", "Villarreal 1-3 Celta", "Real Valladolid 0-1 Sevilla", "Eibar 0-2 Alavés", "Real Madrid 3-1 Real Sociedad", "Granada 1-1 Atlético", "Levante 2-1 Mallorca", "Leganés 1-2 Barcelona", "Betis 2-1 Valencia"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 29 14 9 2 3", "2° Real Madrid 29 14 8 5 1", "3° Sevilla 27 14 8 3 3", "4° Atlético 25 14 6 7 1", "5° Athletic 23 14 6 5 3", "6° Real Sociedad 23 14 7 2 ", "7° Getafe 21 14 5 6 3", "8° Granada CF 21 14 6 3 5", "9° Levante UD 20 14 6 2 6", "10° Valencia CF 20 14 5 5 4", "11° Osasuna 19 14 4 7 3", "12° Villarreal 18 14 5 3 6", "13° Alavés 18 14 5 3 6", "14° Real Valladolid 17 14 4 5 5", "15° Real Betis 16 14 4 4 6", "16° Eibar 15 14 4 3 7", "17° Mallorca 14 14 4 2 8", "18° Celta 12 14 3 3 8", "19° Espanyol 9 14 2 3 9", "20° Leganés 6 14 1 3 10"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 13",
+            "resultado": ["Getafe 0-0 Osasuna", "Mallorca 3-1 Villarreal", "Atlético 3-1 Espanyol ", "Betis 1-2 Sevilla", "R.Sociedad 1-1 Leganés", "Athletic 2-1 Levante", "Barcelona 4-1 Celta", "Alavés 3-0 Real Valladolid ", "Eibar 3-0 Real Valladolid", "Eibar 0-4 Real Madrid"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 26 13 8 2 3", "2° Real Madrid 26 13 7 5 1", "3° Atlético 24 13 6 6 1", "4° Sevilla 24 13 7 3 3", "5° Real Sociedad 23 13 7 2 4", "6° Athletic 20 13 5 5 3", "7° Getafe 20 13 5 5 3", "8° Granada CF 20 13 6 2 5", "9° Valencia CF 20 13 5 5 3", "10° Osasuna 19 13 4 7 2", "11° Villarreal 18 13 5 3 5", "12° Levante UD 17 13 5 2 6", "13° Real Valladolid 17 13 4 5 4", "14° Alavés 15 13 4 3 6", "15° Eibar 15 13 4 3 6", "16° Mallorca 14 13 4 2 7", "17° Real Betis 13 13 3 4 6 ", "18° Celta 9 13 2 3 8", "19° Espanyol 8 13 2 2 9", "20° Leganés 6 13 1 3 9"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 12",
+            "resultado": ["Osasuna 4-2 Alavés", "Real Valladolid 3-0 Mallorca", "Villarreal 0-0 Athletic", "Leganés 1-2 Eibar", "Espanyol 1-2 Valencia", "Granada 1-2 Real Sociedad", "Real Madrid 0-0 Betis", "Levante 3-1 Barcelona", "Sevilla 1-1 Atlético", "Celta 0-1 Getafe"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 23 12 7 2 3", "2° Real Madrid 23 12 6 5 1", "3° Real Sociedad 22 12 7 1 4", "4° Atlético 21 12 5 6 1", "5° Sevilla 21 12 6 3 3", "6° Granada CF 20 12 6 2 4", "7° Getafe 19 12 5 4 3", "8° Villarreal 18 12 4 6 2", "9° Osasuna 18 12 4 6 2 ", "10° Athletic 17 12 4 5 3 ", "11° Levante UD 17 12 5 2 5", "12° Real Valladolid 17 12 4 5 3", "13° Valencia CF 17 12 4 5 3", "14° Eibar 15 12 4 5", "15° Real Betis 13 12 3 4 5", "16° Alavés 12 12 3 3 6", "17° Mallorca 11 12 3 2 7", "18° Celta 9 12 2 3 7", "19° Espanyol 8 12 2 2 8", "20° Leganés 5 12 1 2 9"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 11",
+            "resultado": ["Eibar 2-1 Villareal", "Getafe 3-1 Granada", "Mallorca 2-2 Osasuna", "Valencia 1-1 Sevilla", "R.Sociedad 1-2 Levante", "Alaves 1-1 Atlético", "Athletic 3-0 Espanyol", "Barcelona 5-1 Real Valladolid ", "Betis 2-1 Celta", "Real Madrid 5-0 Leganés"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 23 11 7 2 2", "2° Real Madrid 22 11 6 4 1", "3° Granada CF 20 11 6 2 3", "4° Atlético 20 11 5 5 1", "5° Sevilla 20 11 6 2 3", "6° Real Sociedad 19 11 6 1 4", "7° Villarreal 17 11 5 2 4", "8° Athletic 16 11 4 4 3", "9° Getafe 16 11 4 4 3", "10° Osasuna 15 11 3 6 2 ", "11° Levante UD 14 11 4 2 5 ", "12° Valencia 14 11 3 5 3", "13° Real Valladolid 14 11 3 5 3", "14° Eibar 12 11 3 3 5", "15° Alavés 12 11 3 3 5", "16° Real Betis 12 11 3 3 5", "17° Mallorca 11 11 3 2 6", "18° Celta 9 11 2 3 6", "19° Espanyol 8 11 2 2 7", "20° Leganés 5 11 1 2 8 5"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 10",
+            "resultado": ["Levante 0-1 Espanyol", "Osasuna 3-1 Valencia", "Granada 1-0 Betis", "Barcelona 0-0 Real Madrid ", "Sevilla 2-0 Getafe", "Atlético 2-0 Athletic", "Celta 0-1 Real Sociedad", "Leganés 1-0 Mallorca", "Villarreal 4-1 Alavés", "Real Valladolid 2-0 Eibar"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 20 10 6 2 2", "2° Granada 20 10 6 2 2", "3° Real Sociedad 19 10 6 1 3", "4° Real Madrid 19 10 5 4 1", "5° Atlético 19 10 5 4 1", "6° Sevilla 19 10 6 1 3", "7° Villarreal 17 10 5 2 3", "8° Osasuna 14 10 3 5 2", "9° Real Valladolid 14 10 3 5 2", "10° Athletic 13 10 3 4 3", "11° Getafe 13 10 3 4 3 ", "12° Valencia CF 13 10 3 4 3 ", "13° Levante UD 11 10 3 2 5", "14° Alavés 11 10 3 2 5", "15° Mallorca 10 10 3 1 6 ", "16° Eibar 9 10 2 3 5", "17° Celta 9 10 2 3 5", "18° Real Betis 9 10 2 3 5", "19° Espanyol 8 10 2 2 6 ", "20° Leganés 5 10 1 2 7"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 9",
+            "resultado": ["Espanyol 0-1 Villareal ", "Athletic 1-1 Real Valladolid", "R.Sociedad 3-1 Betis", "Alavés 2-0 Celta", "Sevilla 1-0 Levante", "Mallorca 1-0 Real Madrid ", "Getafe 2-0 Leganés ", "Granada 1-0 Osasuna ", "Atlético 1-1 Valencia", "Eibar 0-3 Barcelona"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° FC Barcelona 19 9 6 1 2", "2° Real Madrid 18 9 5 3 1", "3° Granada CF 17 9 5 2 2", "4° Real Sociead 16 9 5 1 3", "5° Atlético 16 9 4 4 1", "6° Sevilla 16 9 5 1 3", "7° Villarreal 14 9 4 2 3", "8° Athletic 13 9 3 4 2", "9° Getafe 13 9 3 4 2", "10° Valencia 13 9 3 4 2", "11° Levante UD 11 9 3 2 4", "12° Real Valladolid 11 9 2 5 2", "13° Osasuna 11 9 2 5 2", "14° Alavés 11 9 3 2 4", "15° Mallorca 10 9 3 1 5", "16° Eibar 9 9 2 3 4", "17° Celta 9 9 2 3 4", "18° Real Betis 9 9 2 3 4", "19° Espanyol 5 9 1 2 6", "20° Leganés 2 9 0 2 7"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 8",
+            "resultado": ["Celta 1-0 Athletic", "Mallorca 2-0 Espanyol", "R.Sociedad 1-2 Getafe", "Barcelona 4-0 Sevilla", "Real Valladolid 0-0 Atlético", "Valencia 2-1 Alavés", "Leganés 1-2 Levante", "Betis 1-1 Eibar", "Osasuna 2-1 Villarreal", "Real Madrid 4-2 Granada"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 18 8 5 3 0", "2° FC Barcelona 16 8 5 1 2", "3° Atlético 15 8 4 3 1 ", "4° Granada 14 8 4 2 2", "5°Real Sociedad 13 8 4 1 3 ", "6° Sevilla 13 8 4 1 3", "7° Athletic 12 8 3 3 2", "8° Valencia CF 12 8 3 3 2", "9° Villarreal 11 8 3 2 3", "10° Levante UD 11 8 3 2 3", "11° Osasuna 11 8 2 5 1", "12° Getafe 10 8 2 4 2", "13° Real Valladolid 10 8 2 4 2", "14° Eibar 9 8 2 3 3", "15° Celta 9 8 2 3 3 ", "16° Real Betis 9 8 2 3 3", "17° Alavés 8 8 2 2 4", "18° Mallorca 7 8 2 1 5", "19° Espanyol 5 8 1 2 5", "20° Leganés 2 8 0 2 6"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 7",
+            "resultado": ["Eibar 2-0 Celta", "Espanyol 0-2 Real Valladolid", "Levante 1-1 Osasuna", "Alavés 2-0 Mallorca", "Sevilla 3-2 R.Sociedad", "Granada 1-0 Leganés", "Athletic 0-1 Valencia", "Villarreal 5-1 Betis ", "Atlético 0-0 Real Madrid", "Getafe 0-2 Barcelona"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 15 7 4 3 0", "2° Granada CF 14 7 4 2 1", "3° Atlético 14 7 4 2 1", "4° FC Barcelona 13 7 4 1 2", "5° Real Sociedad 13 7 4 1 2", "6° Sevilla 13 7 4 1 2", "7° Athletic 12 7 3 3 1", "8° Villarreal 11 7 3 2 2", "9° Valencia 9 7 2 3 2", "10° Real Valladolid 9 7 2 3 2", "11° Eibar 8 7 2 2 3", "12° Levante UD 8 7 2 2 3", "13° Osasuna 8 7 1 5 1", "14° Alavés 8 7 2 2 3", "15° Real Betis 8 7 2 2 3", "16° Getafe 7 7 1 4 2", "17° Celta 6 7 1 3 3 ", "18° Espanyol 5 7 1 2 4", "19° Mallorca 4 7 1 1 5", "20° Leganés 2 7 0 2 5"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 6",
+            "resultado": ["Valencia 3-3 Getafe", "Celta 1-1 Espanyol", "R.Sociedad 3-0 Alavés", "Real Madrid 2-0 Osasuna", "Eibar 3-2 Sevilla", "Mallorca 0-2 Atlético", "Barcelona 2-1 Villarreal", "Real Valladolid 1-1 Granada", "Betis 3-1 Levante", "Leganés 1-1 Athletic"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 14 6 4 2 0", "2° Real Sociedad 13 6 4 1 1", "3° Atlético 13 6 4 1 1", "4° Athletic 12 6 3 3 0", "5° Granada CF 11 6 3 2 1", "6° FC Barcelona 10 6 3 1 2", "7° Sevilla 10 6 3 1 2", "8° Villarreal 8 6 2 2 2 ", "9° Real Betis 8 6 2 2 2", "10° Getafe 7 6 1 4 1", "11° Levante UD 7 6 2 1 3", "12° Osasuna 7 6 1 4 1", "13° Valencia CF 6 6 1 3 2", "14° Real Valladolid 6 6 1 3 2 ", "15° Celta 6 6 1 3 2", "16° Eibar 5 6 1 2 3 ", "17° Alavés 5 6 1 2 3", "18° Espanyol 5 6 1 2 3", "19° Mallorca 4 6 1 1 4", "20° Leganés 2 6 0 2 4"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 5",
+            "resultado": ["Espanyol 1-3 R.Sociedad", "Sevilla 0-1 Real Madrid", "Valencia 1-1 Leganés", "Athletic 2-0 Alavés", "Getafe 4-2 Mallorca", "Villarreal 2-0 Real Valladolid", "Granada 2-0 Barcelona", "Atlético 0-0 Celta", "Osasuna 0-0 Betis", "Levante 0-0 Eibar"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Athletic 11 5 3 2 0", "2° Real Madrid 11 5 3 2 0", "3° Granada CF 10 5 3 1 1", "4° Real Sociedad 10 5 3 1 1", "5° Sevilla 10 5 3 1 1", "6° Atlético 10 5 3 1 1", "7° Villarreal 8 5 2 2 1", "8° FC Barcelona 7 5 2 1 2", "9° Levante UD 7 5 2 1 2", "10° Osasuna 7 5 1 3 0", "11° Getafe 6 5 1 3 1", "12° Valencia 5 5 1 2 2", "13° Alavés 5 5 1 2 2", "14° Real Betis 5 5 1 2 2", "15° Real Valladolid 5 5 1 2 2 ", "16° Celta 5 5 1 2 2", "17° Mallorca 4 5 1 1 3", "18° Espanyol 4 5 1 1 3", "19° Eibar 2 5 0 2 3", "20° Leganés 1 5 0 1 4"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 4",
+            "resultado": ["Celta 0-2 Granada", "Eibar 1-2 Espanyol", "Real Valladolid 1-1 Osasuna", "Alavés 0-1 Sevilla", "Betis 1-1 Getafe", "R.Sociedad 2-0 Atlético", "Real Madrid 3-2 Levante", "Barcelona 5-2 Valencia", "Mallorca 0-0 Athletic", "Leganés 0-3 Villarreal"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Sevilla 10 4 3 1 0", "2° Atlético 9 4 3 0 1", "3° Real Madrid 8 4 2 2 0", "4° Athletic 8 4 2 2 0", "5° FC Barcelona 7 4 2 1 1", "6° Granada CF 7 4 2 1 1", "7° Real Sociedad 7 4 2 1 1", "8° Levante UD 6 4 2 0 2", "9° Osasuna 6 4 1 3 0", "10° Villarreal 5 4 1 2 1", "11° Alavés 5 4 1 2 1", "12° Real Valladolid 5 4 1 2 1", "13° Valencia CF 4 4 1 1 2", "14° Mallorca 4 4 1 1 2", "15° Real Betis 4 4 1 1 2", "16° Celta 4 4 1 1 2", "17° Espanyol 4 4 1 1 2", "18° Getafe 3 4 0 3 1", "19° Eibar 1 4 0 1 3", "20° Leganés 0 4 0 0 4"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 3",
+            "resultado": ["Atlético 3-2 Eibar", "Espanyol 0-3 Granada", "Villareal 2-2 Real Madrid", "Betis 2-1 Leganés", "Valencia 2-0 Mallorca", "Sevilla 1-1 Celta", "Osasuna 2-2 Barcelona", "Athletic 2-0 R.Sociedad", "Getafe 1-1 Alavés", "Levante 2-0 Real Valladolid"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Atlético 9 3 3 0 0", "2° Athletic 7 3 2 1 0", "3° Sevilla 7 3 2 1 0", "4° Levante UD 6 3 2 0 1", "5° Real Madrid 5 3 1 2 0", "6° Osasuna 5 3 1 2 0", "7° Alavés 5 3 1 2 0", "8° FC Barcelona 4 3 1 1 1", "9° Granada CF 4 3 1 1 1", "10° Valencia CF 4 3 1 1 1", "11° Real Valladolid4 3 1 1 1", "12° Celta 4 3 1 1 1", "13° Real Sociedad 4 3 1 1 1 ", "14°Mallorca 3 3 1 0 2 ", "15° Real Betis 3 3 1 0 2", "16° Villarreal 2 3 0 2 1", "17° Getafe 2 3 0 2 1", "18° Eibar 1 3 0 1 2", "19° Espanyol 1 3 0 1 2", "20° Leganés 0 3 0 0 3"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 2",
+            "resultado": ["Alavés 0-0 Espanyol", "Barcelona 5-2 Betis", "Mallorca 0-1 R.Sociedad", "Real Madrid 1-1 Real Valladolid", "Leganés 0-1 Atlético", "Celta 1-0 Valencia", "Osasuna 0-0 Eibar", "Levante 2-1 Villarreal", "Granada 0-1 Sevilla", "Getafe 1-1 Athletic"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Sevilla 6 2 2 0 0", "2° Atletico 6 2 2 0 0", "3° Real Madrid 4 2 1 1 0", "4° Real Valladolid 4 2 1 1 0", "5° Athletic 4 2 1 1 0", "6° Real Sociedad 4 2 1 1 0", "7° Osasuna 4 2 1 1 0", "8° Alavés 4 2 1 1 0", "9° FC Barcelona 3 2 1 0 1", "10° Levante UD 3 2 1 0 1", "11° Mallorca 3 2 1 0 1", "12° Celta 3 2 1 0 1", "13° Villarreal 1 2 0 1 1", "14° Granada CF 1 2 0 1 1", "15° Getafe CF 1 2 0 1 1 1", "16° Eibar 1 2 0 1 1", "17° Valencia 1 2 0 1 1", "18° Espanyol 1 2 0 1 1", "19° Leganés 0 2 0 0 2", "20° Real Betis 0 2 0 0 2"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+
+        },
+        {
+            "jornadas": "Jornada 1",
+            "resultado": ["Alavés 1-0 Levante", "Espanyol 0-2 Sevilla", "Betis 1-2 Real Valladolid", "Athletic 1-0 Barcelona", "Villarreal 4-4 Granada", "Atlético 1-0 Getafe", "Leganés 0-1 Osasuna", "Celta 1-3 Real Madrid", "Mallorca 2-1 Eibar"],
+            "posicion": ["Equipo-------PTOS.-PJ.-P.-PE.-PP.", "1° Real Madrid 3 1 1 0 0", "2° Sevilla FC 3 1 1 0 0", "3° Real Valladolid 3 1 1 0 0", "4° Mallorca 3 1 1 0 0", "5° Ahletic 3 1 1 0 0", "6° Atlético 3 1 1 0 0", "7° Osasuna 3 1 1 0 0", "8° Alavés 3 1 1 0 0", "9° Granada CF 1 1 0 1 0", "10° Villarreal 1 1 0 1 0", "11° Real Sociedad 1 1 0 1 0", "12° Valencia CF 1 1 0 1 0", "13° Real Betis 0 1 0 0 1", "14° Eibar 0 1 0 0 1", "15° Leganés 0 1 0 0 1", "16° FC Barcelona 0 1 0 0 1", "17° Getafe 0 1 0 0 1", "18° Levante UD 0 1 0 0 1", "19° Celta 0 1 0 0 1 1", "20° Espanyol 0 1 0 0 1"],
+            "goleadores": ["1° Leo Messi(Fc Barcelona) 18 goles", "2° K.Benzema (R.Madrid) 13 goles", "3° Luis Suárez (Fc Barcelona) 11 goles", "4° Ángel (Getafe) 10 goles", "5° Gerard (Villarreal) 10 goles", "6° Lucas Pérez(Alavés) 10 goles", "7° Roger (Levante) 10 goles", "8° Ávila (Osasuna) 9 goles", "8° Maxi Gomez(Valencia) 9 goles", "8° Budimir (Mallorca) 9 goles", "8° Joselu (Alavés) 9 goles", "8° Iago Aspas(Celta) 9 goles"]
+        }
+    ]
+}
